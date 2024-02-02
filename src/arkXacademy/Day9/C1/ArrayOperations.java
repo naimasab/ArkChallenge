@@ -1,5 +1,8 @@
 package arkXacademy.Day9.C1;
 
+import java.util.Collection;
+import java.util.Collections;
+
 public class ArrayOperations {
     public static void main(String[] args) {
         int[] numbers = {10, 20, 30, 40, 50};
@@ -26,5 +29,11 @@ public class ArrayOperations {
         }
         System.out.println("Maximum value : " +max);
         System.out.println("Minimum value : " +min);
+
+        for(int i=numbers.length;i>=0;i--){
+            System.out.println(numbers[i]+" ");
+        }
+
     }
+
 }
