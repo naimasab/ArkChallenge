@@ -7,6 +7,7 @@ public class ArrayOperations {
         for (int number : numbers) {
             System.out.println(number);
         }
+
         int sum = 0;
         for (int number : numbers) {
             sum += number;
