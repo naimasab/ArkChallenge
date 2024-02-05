@@ -1,7 +1,6 @@
 package arkXacademy.Day6.C1;
 
 
-import arkXacademy.Day6.C1.Book;
 
 class NonFictionBook extends Book {
     private String topic;
