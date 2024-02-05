@@ -10,7 +10,7 @@ public class Matrix {
         };
 
 
-        System.out.println("Original Matrix:");
+        System.out.println("Matrix:");
         printMatrix(matrix);
 
 
@@ -41,13 +41,11 @@ public class Matrix {
             }
         }
         return sum;
-
-
     }
 
     public static int[][] transposeMatrix(int[][] matrix) {
         int rows = matrix.length;
-        int columns = matrix[0].length;
+        int columns = matrix.length;
 
         int[][] transposedMatrix = new int[columns][rows];
         for (int i = 0; i < rows; i++) {
@@ -57,14 +55,4 @@ public class Matrix {
         }
         return transposedMatrix;
     }
-
-
-
-
-
-
-
-
-
-
 }
