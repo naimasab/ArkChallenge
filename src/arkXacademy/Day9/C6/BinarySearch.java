@@ -23,6 +23,7 @@ public class BinarySearch {
                 small=middlePosition+ 1;
             }
         }
+
         return  -1; //fail
 
 
