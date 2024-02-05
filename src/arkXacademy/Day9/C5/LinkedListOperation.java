@@ -15,5 +15,6 @@ public class LinkedListOperation {
             System.out.println(a);
         Collections.reverse(Grocery);
         System.out.println(Grocery);
+
     }
 }

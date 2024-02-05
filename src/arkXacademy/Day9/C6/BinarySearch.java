@@ -6,8 +6,8 @@ public class BinarySearch {
         int[]ints={1,2,4,5,7,9,10};
         System.out.println(binarySearch(ints,10));
 
-
     }
+
     private static int binarySearch (int numbers[],int numberToFind) {
         int small = 0;
         int high =  numbers.length-1;

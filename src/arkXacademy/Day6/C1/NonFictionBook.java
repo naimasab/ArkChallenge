@@ -14,6 +14,7 @@ class NonFictionBook extends Book {
         return topic;
     }
 
+
     public void setTopic(String topic) {
         this.topic = topic;
     }
