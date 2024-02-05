@@ -4,7 +4,7 @@ package arkXacademy.Day9.C6;
 public class BinarySearch {
     public static void main(String[] args) {
 
-        int[]ints={1,2,4,5,7,9,11};
+        int[]ints={1,2,4,5,7,9};
         System.out.println(binarySearch(ints,3));
 
     }

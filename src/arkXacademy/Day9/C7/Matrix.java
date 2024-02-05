@@ -48,7 +48,7 @@ public class Matrix {
         int columns = matrix.length;
 
         int[][] transposedMatrix = new int[columns][rows];
-        for (int i = 0; i < rows; i++) {
+        for (int i = 0; i <=rows-1; i++) {
             for (int j = 0; j < columns; j++) {
                 transposedMatrix[j][i] = matrix[i][j];
             }
